@@ -48,6 +48,14 @@
   <ItemGroup>
      <Compile Include="Assets\KeyBoardCameraControl.cs" />
      <Compile Include="Assets\Scripts\GridManager.cs" />
+     <Compile Include="Assets\Scripts\GridObject.cs" />
+     <Compile Include="Assets\Scripts\IHasNeighbors.cs" />
+     <Compile Include="Assets\Scripts\Path.cs" />
+     <Compile Include="Assets\Scripts\PathFinder.cs" />
+     <Compile Include="Assets\Scripts\Point.cs" />
+     <Compile Include="Assets\Scripts\Priority Queue.cs" />
+     <Compile Include="Assets\Scripts\Tile.cs" />
+     <Compile Include="Assets\Scripts\TileBehaviour.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Programs/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
