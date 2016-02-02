@@ -4,7 +4,7 @@ using System.Collections;
 public class TileBehaviour : MonoBehaviour
 {
     public Tile tile;
-    //After attaching this script to hex tile prefab don't forget to initialize following materials with the ones we created earlier
+    
     public Material OpaqueMaterial;
     public Material defaultMaterial;
     //Slightly transparent orange
@@ -19,11 +19,11 @@ public class TileBehaviour : MonoBehaviour
         GetComponent<Renderer>().material.color = color;
     }
 
-    //IMPORTANT: for methods like OnMouseEnter, OnMouseExit and so on to work, collider (Component -> Physics -> Mesh Collider) should be attached to the prefab
+    
     void OnMouseEnter()
     {
         GridManager.instance.selectedTile = tile;
-        //when mouse is over some tile, the tile is passable and the current tile is neither destination nor origin tile, change color to orange
+        
         if (tile.Passable && this != GridManager.instance.destTileTB
             && this != GridManager.instance.originTileTB)
         {

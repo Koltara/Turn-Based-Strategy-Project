@@ -2,31 +2,20 @@ Initialize engine version: 5.0.1f1 (5a2e8fe35a68)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 660   (ID=0x11c0)
-    Vendor:   NVIDIA
-    VRAM:     1988 MB
+    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
+    Vendor:   Intel
+    VRAM:     896 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\Colin\Documents\Turn-Based-Strategy-Project\Turn Based Strategy Project\TBSProject_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\Colin\Documents\Turn-Based-Strategy-Project\Turn Based Strategy Project\TBSProject_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\Colin\Documents\Turn-Based-Strategy-Project\Turn Based Strategy Project\TBSProject_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\Colin\Documents\Turn-Based-Strategy-Project\Turn Based Strategy Project\TBSProject_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\Colin\Documents\Turn-Based-Strategy-Project\Turn Based Strategy Project\TBSProject_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\Colin\Documents\Turn-Based-Strategy-Project\Turn Based Strategy Project\TBSProject_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.048 seconds
-desktop: 1920x1080 60Hz; virtual: 3840x1080 at -1920,0
+Platform assembly: C:\Users\cross1\Documents\GitHub\Turn-Based-Strategy-Project\Turn Based Strategy Project\TBSProject_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\cross1\Documents\GitHub\Turn-Based-Strategy-Project\Turn Based Strategy Project\TBSProject_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\cross1\Documents\GitHub\Turn-Based-Strategy-Project\Turn Based Strategy Project\TBSProject_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\cross1\Documents\GitHub\Turn-Based-Strategy-Project\Turn Based Strategy Project\TBSProject_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\cross1\Documents\GitHub\Turn-Based-Strategy-Project\Turn Based Strategy Project\TBSProject_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\cross1\Documents\GitHub\Turn-Based-Strategy-Project\Turn Based Strategy Project\TBSProject_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.045 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-Platform assembly: C:\Users\Colin\Documents\Turn-Based-Strategy-Project\Turn Based Strategy Project\TBSProject_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\Colin\Documents\Turn-Based-Strategy-Project\Turn Based Strategy Project\TBSProject_Data\Managed\System.dll (this message is harmless)
-NullReferenceException: Object reference not set to an instance of an object
-  at GridManager.DrawPath (IEnumerable`1 path) [0x00000] in <filename unknown>:0 
-  at GridManager.generateAndShowPath () [0x00000] in <filename unknown>:0 
-  at TileBehaviour.OnMouseOver () [0x00000] in <filename unknown>:0 
-UnityEngine.GameObject:SendMessage(String, Object, SendMessageOptions)
-UnityEngine.HitInfo:SendMessage(String)
-UnityEngine.SendMouseEvents:SendEvents(Int32, HitInfo)
-UnityEngine.SendMouseEvents:DoSendMouseEvents(Int32, Int32)
- 
-(Filename:  Line: -1)
-
+Platform assembly: C:\Users\cross1\Documents\GitHub\Turn-Based-Strategy-Project\Turn Based Strategy Project\TBSProject_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\cross1\Documents\GitHub\Turn-Based-Strategy-Project\Turn Based Strategy Project\TBSProject_Data\Managed\System.dll (this message is harmless)

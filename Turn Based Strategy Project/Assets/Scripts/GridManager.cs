@@ -144,7 +144,7 @@ public class GridManager : MonoBehaviour {
             return;
         }
         //We assume that the distance between any two adjacent tiles is 1
-        //If you want to have some mountains, rivers, dirt roads or something else which might slow down the player you should replace the function with something that suits better your needs
+        
         Func<Tile, Tile, double> distance = (node1, node2) => 1;
 
         var path = PathFinder.FindPath(originTileTB.tile, destTileTB.tile);
